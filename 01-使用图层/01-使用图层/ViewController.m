@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIView *layerView;
+
 @end
 
 @implementation ViewController
@@ -17,6 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    CALayer *blueLayer = [[CALayer alloc] init];
+    blueLayer.frame = CGRectInset(self.layerView.bounds, 20, 20);
+    blueLayer.backgroundColor = [UIColor blueColor].CGColor;
+    [self.layerView.layer addSublayer:blueLayer];
 }
 
 - (void)didReceiveMemoryWarning {

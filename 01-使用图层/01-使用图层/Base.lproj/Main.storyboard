@@ -16,11 +16,29 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G5V-dt-468">
+                                <rect key="frame" x="180" y="236" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="5hw-S6-g4l"/>
+                                    <constraint firstAttribute="height" constant="128" id="6me-7u-Wf7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="G5V-dt-468" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="NIQ-F3-Ljf"/>
+                            <constraint firstItem="G5V-dt-468" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ilo-dZ-o0f"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="layerView" destination="G5V-dt-468" id="IzC-c9-Uag"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="214" y="346"/>
         </scene>
     </scenes>
 </document>
