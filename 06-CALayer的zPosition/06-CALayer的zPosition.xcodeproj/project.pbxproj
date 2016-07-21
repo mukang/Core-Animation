@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A29A8A21D40E51600701CB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A29A8A11D40E51600701CB0 /* main.m */; };
+		7A29A8A51D40E51600701CB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A29A8A41D40E51600701CB0 /* AppDelegate.m */; };
+		7A29A8A81D40E51600701CB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A29A8A71D40E51600701CB0 /* ViewController.m */; };
+		7A29A8AB1D40E51600701CB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A29A8A91D40E51600701CB0 /* Main.storyboard */; };
+		7A29A8AD1D40E51600701CB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A29A8AC1D40E51600701CB0 /* Assets.xcassets */; };
+		7A29A8B01D40E51600701CB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A29A8AE1D40E51600701CB0 /* LaunchScreen.storyboard */; };
+		7A29A8BB1D40E51600701CB0 /* _6_CALayer_zPositionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A29A8BA1D40E51600701CB0 /* _6_CALayer_zPositionTests.m */; };
+		7A29A8C61D40E51600701CB0 /* _6_CALayer_zPositionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A29A8C51D40E51600701CB0 /* _6_CALayer_zPositionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A29A8B71D40E51600701CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A29A8951D40E51600701CB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A29A89C1D40E51600701CB0;
+			remoteInfo = "06-CALayer的zPosition";
+		};
+		7A29A8C21D40E51600701CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A29A8951D40E51600701CB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A29A89C1D40E51600701CB0;
+			remoteInfo = "06-CALayer的zPosition";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A29A89D1D40E51600701CB0 /* 06-CALayer的zPosition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "06-CALayer的zPosition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A29A8A11D40E51600701CB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A29A8A31D40E51600701CB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A29A8A41D40E51600701CB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A29A8A61D40E51600701CB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A29A8A71D40E51600701CB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A29A8AA1D40E51600701CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A29A8AC1D40E51600701CB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A29A8AF1D40E51600701CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A29A8B11D40E51600701CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A29A8B61D40E51600701CB0 /* 06-CALayer的zPositionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "06-CALayer的zPositionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A29A8BA1D40E51600701CB0 /* _6_CALayer_zPositionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_CALayer_zPositionTests.m; sourceTree = "<group>"; };
+		7A29A8BC1D40E51600701CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A29A8C11D40E51600701CB0 /* 06-CALayer的zPositionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "06-CALayer的zPositionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A29A8C51D40E51600701CB0 /* _6_CALayer_zPositionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_CALayer_zPositionUITests.m; sourceTree = "<group>"; };
+		7A29A8C71D40E51600701CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A29A89A1D40E51600701CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A29A8B31D40E51600701CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A29A8BE1D40E51600701CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A29A8941D40E51600701CB0 = {
+			isa = PBXGroup;
+			children = (
+				7A29A89F1D40E51600701CB0 /* 06-CALayer的zPosition */,
+				7A29A8B91D40E51600701CB0 /* 06-CALayer的zPositionTests */,
+				7A29A8C41D40E51600701CB0 /* 06-CALayer的zPositionUITests */,
+				7A29A89E1D40E51600701CB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A29A89E1D40E51600701CB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A29A89D1D40E51600701CB0 /* 06-CALayer的zPosition.app */,
+				7A29A8B61D40E51600701CB0 /* 06-CALayer的zPositionTests.xctest */,
+				7A29A8C11D40E51600701CB0 /* 06-CALayer的zPositionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A29A89F1D40E51600701CB0 /* 06-CALayer的zPosition */ = {
+			isa = PBXGroup;
+			children = (
+				7A29A8A31D40E51600701CB0 /* AppDelegate.h */,
+				7A29A8A41D40E51600701CB0 /* AppDelegate.m */,
+				7A29A8A61D40E51600701CB0 /* ViewController.h */,
+				7A29A8A71D40E51600701CB0 /* ViewController.m */,
+				7A29A8A91D40E51600701CB0 /* Main.storyboard */,
+				7A29A8AC1D40E51600701CB0 /* Assets.xcassets */,
+				7A29A8AE1D40E51600701CB0 /* LaunchScreen.storyboard */,
+				7A29A8B11D40E51600701CB0 /* Info.plist */,
+				7A29A8A01D40E51600701CB0 /* Supporting Files */,
+			);
+			path = "06-CALayer的zPosition";
+			sourceTree = "<group>";
+		};
+		7A29A8A01D40E51600701CB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A29A8A11D40E51600701CB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A29A8B91D40E51600701CB0 /* 06-CALayer的zPositionTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A29A8BA1D40E51600701CB0 /* _6_CALayer_zPositionTests.m */,
+				7A29A8BC1D40E51600701CB0 /* Info.plist */,
+			);
+			path = "06-CALayer的zPositionTests";
+			sourceTree = "<group>";
+		};
+		7A29A8C41D40E51600701CB0 /* 06-CALayer的zPositionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A29A8C51D40E51600701CB0 /* _6_CALayer_zPositionUITests.m */,
+				7A29A8C71D40E51600701CB0 /* Info.plist */,
+			);
+			path = "06-CALayer的zPositionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A29A89C1D40E51600701CB0 /* 06-CALayer的zPosition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A29A8CA1D40E51600701CB0 /* Build configuration list for PBXNativeTarget "06-CALayer的zPosition" */;
+			buildPhases = (
+				7A29A8991D40E51600701CB0 /* Sources */,
+				7A29A89A1D40E51600701CB0 /* Frameworks */,
+				7A29A89B1D40E51600701CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06-CALayer的zPosition";
+			productName = "06-CALayer的zPosition";
+			productReference = 7A29A89D1D40E51600701CB0 /* 06-CALayer的zPosition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A29A8B51D40E51600701CB0 /* 06-CALayer的zPositionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A29A8CD1D40E51600701CB0 /* Build configuration list for PBXNativeTarget "06-CALayer的zPositionTests" */;
+			buildPhases = (
+				7A29A8B21D40E51600701CB0 /* Sources */,
+				7A29A8B31D40E51600701CB0 /* Frameworks */,
+				7A29A8B41D40E51600701CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A29A8B81D40E51600701CB0 /* PBXTargetDependency */,
+			);
+			name = "06-CALayer的zPositionTests";
+			productName = "06-CALayer的zPositionTests";
+			productReference = 7A29A8B61D40E51600701CB0 /* 06-CALayer的zPositionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A29A8C01D40E51600701CB0 /* 06-CALayer的zPositionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A29A8D01D40E51600701CB0 /* Build configuration list for PBXNativeTarget "06-CALayer的zPositionUITests" */;
+			buildPhases = (
+				7A29A8BD1D40E51600701CB0 /* Sources */,
+				7A29A8BE1D40E51600701CB0 /* Frameworks */,
+				7A29A8BF1D40E51600701CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A29A8C31D40E51600701CB0 /* PBXTargetDependency */,
+			);
+			name = "06-CALayer的zPositionUITests";
+			productName = "06-CALayer的zPositionUITests";
+			productReference = 7A29A8C11D40E51600701CB0 /* 06-CALayer的zPositionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A29A8951D40E51600701CB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "穆康";
+				TargetAttributes = {
+					7A29A89C1D40E51600701CB0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7A29A8B51D40E51600701CB0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7A29A89C1D40E51600701CB0;
+					};
+					7A29A8C01D40E51600701CB0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7A29A89C1D40E51600701CB0;
+					};
+				};
+			};
+			buildConfigurationList = 7A29A8981D40E51600701CB0 /* Build configuration list for PBXProject "06-CALayer的zPosition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A29A8941D40E51600701CB0;
+			productRefGroup = 7A29A89E1D40E51600701CB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A29A89C1D40E51600701CB0 /* 06-CALayer的zPosition */,
+				7A29A8B51D40E51600701CB0 /* 06-CALayer的zPositionTests */,
+				7A29A8C01D40E51600701CB0 /* 06-CALayer的zPositionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A29A89B1D40E51600701CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A29A8B01D40E51600701CB0 /* LaunchScreen.storyboard in Resources */,
+				7A29A8AD1D40E51600701CB0 /* Assets.xcassets in Resources */,
+				7A29A8AB1D40E51600701CB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A29A8B41D40E51600701CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A29A8BF1D40E51600701CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A29A8991D40E51600701CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A29A8A81D40E51600701CB0 /* ViewController.m in Sources */,
+				7A29A8A51D40E51600701CB0 /* AppDelegate.m in Sources */,
+				7A29A8A21D40E51600701CB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A29A8B21D40E51600701CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A29A8BB1D40E51600701CB0 /* _6_CALayer_zPositionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A29A8BD1D40E51600701CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A29A8C61D40E51600701CB0 /* _6_CALayer_zPositionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A29A8B81D40E51600701CB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A29A89C1D40E51600701CB0 /* 06-CALayer的zPosition */;
+			targetProxy = 7A29A8B71D40E51600701CB0 /* PBXContainerItemProxy */;
+		};
+		7A29A8C31D40E51600701CB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A29A89C1D40E51600701CB0 /* 06-CALayer的zPosition */;
+			targetProxy = 7A29A8C21D40E51600701CB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A29A8A91D40E51600701CB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A29A8AA1D40E51600701CB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A29A8AE1D40E51600701CB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A29A8AF1D40E51600701CB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A29A8C81D40E51600701CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A29A8C91D40E51600701CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A29A8CB1D40E51600701CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "06-CALayer的zPosition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juyi.-6-CALayer-zPosition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A29A8CC1D40E51600701CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "06-CALayer的zPosition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juyi.-6-CALayer-zPosition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7A29A8CE1D40E51600701CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "06-CALayer的zPositionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juyi.-6-CALayer-zPositionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/06-CALayer的zPosition.app/06-CALayer的zPosition";
+			};
+			name = Debug;
+		};
+		7A29A8CF1D40E51600701CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "06-CALayer的zPositionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juyi.-6-CALayer-zPositionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/06-CALayer的zPosition.app/06-CALayer的zPosition";
+			};
+			name = Release;
+		};
+		7A29A8D11D40E51600701CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "06-CALayer的zPositionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juyi.-6-CALayer-zPositionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "06-CALayer的zPosition";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7A29A8D21D40E51600701CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "06-CALayer的zPositionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juyi.-6-CALayer-zPositionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "06-CALayer的zPosition";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A29A8981D40E51600701CB0 /* Build configuration list for PBXProject "06-CALayer的zPosition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A29A8C81D40E51600701CB0 /* Debug */,
+				7A29A8C91D40E51600701CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A29A8CA1D40E51600701CB0 /* Build configuration list for PBXNativeTarget "06-CALayer的zPosition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A29A8CB1D40E51600701CB0 /* Debug */,
+				7A29A8CC1D40E51600701CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A29A8CD1D40E51600701CB0 /* Build configuration list for PBXNativeTarget "06-CALayer的zPositionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A29A8CE1D40E51600701CB0 /* Debug */,
+				7A29A8CF1D40E51600701CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A29A8D01D40E51600701CB0 /* Build configuration list for PBXNativeTarget "06-CALayer的zPositionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A29A8D11D40E51600701CB0 /* Debug */,
+				7A29A8D21D40E51600701CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A29A8951D40E51600701CB0 /* Project object */;
+}
